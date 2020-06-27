@@ -1,9 +1,17 @@
 {
   "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+    { "userId": 1, "userName": "smile" ,"PassWord":"1"},
+    { "userId": 2, "userName": "smile1"  ,"PassWord":"1"},
+    { "userId": 3, "userName": "smile2"  ,"PassWord":"1"},
+    { "userId": 4, "userName": "smile3"  ,"PassWord":"1"}
   ],
+  "get":[
+{ "Id":1,"userName": "smile","PassWord":"1","Name":"Nguyen","CreateDate" :"23/05/2020","Active":true,"office":"Smile","Hotel":"none","checkIn":"18/04/2019","checkOut":"23/05/2030"},
+{ "Id":2,"userName": "smile","PassWord":"1","Name":"Ngoc","CreateDate" :"23/05/2020","Active":true,"office":"Smile","Hotel":"none","checkIn":"18/04/2019","checkOut":"23/05/2030"},
+{ "Id":3,"userName": "smile","PassWord":"1","Name":"Anh","CreateDate" :"23/05/2020","Active":true,"office":"Smile","Hotel":"none","checkIn":"18/04/2019","checkOut":"23/05/2030"},
+{ "Id":4,"userName": "smile","PassWord":"1","Name":"sml","CreateDate" :"23/05/2020","Active":true,"office":"Smile","Hotel":"none","checkIn":"18/04/2019","checkOut":"23/05/2030"},
+ 
+  ]
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
